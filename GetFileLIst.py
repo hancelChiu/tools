@@ -18,6 +18,7 @@ class GetFileList():
                 files_path.append(file_path)
             return files_path
 
+
 if __name__ == '__main__':
     dir_path = r'C:\Users\81477\Desktop\test\冷知识测试题 （2021-2022年）'
     file_list = GetFileList().getfilelist(dir_path)
